@@ -1,0 +1,20 @@
+<?php
+
+function zenfolio_scripts()
+{
+    // Get theme version for cache busting
+    $theme_version = wp_get_theme()->get('Version');
+
+    // Enqueue local styles with versioning
+    wp_enqueue_style('zenfolio-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), $theme_version);
+    wp_enqueue_style('zenfolio-fancybox', get_template_directory_uri() . '/css/jquery.fancybox.css', array(), $theme_version);
+    wp_enqueue_style('zenfolio-main', get_template_directory_uri() . '/css/main.css', array(), $theme_version);
+    wp_enqueue_style('zenfolio-responsive', get_template_directory_uri() . '/css/responsive.css', array(), $theme_version);
+    wp_enqueue_style('zenfolio-animate', get_template_directory_uri() . '/css/animate.min.css', array(), $theme_version);
+
+    // Enqueue FontAwesome from CDN
+    wp_enqueue_style('zenfolio-fontawesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', array(), null);
+}
+
+// Hook the function to wp_enqueue_scripts
+add_action('wp_enqueue_scripts', 'zenfolio_scripts');
