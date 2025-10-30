@@ -100,7 +100,7 @@
   <section id="works" class="works section no-padding">
     <div class="container-fluid">
       <div class="row no-gutter">
-        <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="<?php echo get_template_directory_uri(); ?>/images/work-1.jpg" class="work-box"> <img src="<?php echo get_template_directory_uri(); ?>/images/work-1.jpg" alt="">
+        <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
             <div class="overlay">
               <div class="overlay-caption">
                 <h5>Project Name</h5>
