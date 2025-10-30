@@ -1,0 +1,63 @@
+/*
+Theme Name: ZenFolio
+Theme URI: https://rajendratamang.com.np
+Author: Rajendra Tamang
+Author URI: https://rajendratamang.com.np
+Description: ZenFolio is a modern, clean, and fully responsive WordPress portfolio theme designed for developers, designers, photographers, and creative professionals. It allows you to beautifully showcase your projects, display your skills, and share detailed project descriptions with elegant layouts and customizable sections. Perfect for personal branding and professional portfolios.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: zenfolio
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* zen added */
+
+/* ===== Fix Header Position ===== */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    /* or use transparent/any color */
+    z-index: 9999;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+/* Adjust body or banner padding so content doesn’t go under header */
+.banner {
+    padding-top: 100px;
+    /* Adjust height based on header size */
+}
+
+/* Optional: style nav alignment */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #0073aa;
+}

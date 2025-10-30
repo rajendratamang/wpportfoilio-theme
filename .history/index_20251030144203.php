@@ -175,6 +175,8 @@
           dynamic_sidebar('hire-me');
         }
         ?>
+        <!-- <h3>Need something specific?</h3>
+        <p>We are currently crafting new products but would love to hear from you.</p> -->
         <a href="#contact" class="btn btn-large">Hire me</a>
       </div>
     </div>

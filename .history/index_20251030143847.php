@@ -151,7 +151,7 @@
             </div>
             <!-- overlay -->
           </a> </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
+        <!-- <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
             <div class="overlay">
               <div class="overlay-caption">
                 <h5>Project Name</h5>
@@ -159,22 +159,17 @@
               </div>
             </div>
             <!-- overlay -->
-          </a> </div>
+          </a> </div> -->
       </div>
     </div>
   </section>
   <!-- portfolio section -->
-
-
   <!-- hire me section -->
   <section id="hireme" class="section hireme">
     <div class="container">
       <div class="col-md-8 col-md-offset-2 text-center">
-         <?php
-        if (is_active_sidebar('hire-me')) {
-          dynamic_sidebar('hire-me');
-        }
-        ?>
+        <h3>Need something specific?</h3>
+        <p>We are currently crafting new products but would love to hear from you.</p>
         <a href="#contact" class="btn btn-large">Hire me</a>
       </div>
     </div>
