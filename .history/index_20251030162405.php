@@ -135,7 +135,7 @@
             </div>
         <?php
           endwhile;
-          wp_reset_postdata();
+          wp
         else:
           echo "No Post To Display";
         endif;

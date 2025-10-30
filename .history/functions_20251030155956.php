@@ -99,6 +99,3 @@ register_nav_menus(
     )
 );
 
-// featured image
-add_theme_support('post-thumbnails');
-

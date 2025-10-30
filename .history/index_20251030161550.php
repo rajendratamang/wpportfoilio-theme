@@ -115,34 +115,27 @@
           while ($work->have_posts()):
             $work->the_post();
         ?>
-            <div class="col-lg-3 col-md-6 col-sm-6 work">
-              <a href="<?php the_post_thumbnail_url(); ?>" class="work-box">
-                <img src="<?php the_post_thumbnail_url(); ?>" alt="">
-                <div class="overlay">
-                  <div class="overlay-caption">
-                    <h5><?php the_title(); ?></h5>
-                    <p>
-                      <?php
-                      foreach ((get_the_category()) as $category) {
-                        echo $category->cat_name;
-                      }
-                      ?>
-                    </p>
-                  </div>
-                </div>
-                <!-- overlay -->
-              </a>
+  <div class="col-lg-3 col-md-6 col-sm-6 work">
+          <a href="<?php echo get_template_directory_uri(); ?>/images/work-1.jpg" class="work-box">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/work-1.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <h5>Project Name</h5>
+                <p>Logo Design</p>
+              </div>
             </div>
+            <!-- overlay -->
+          </a>
+        </div>
         <?php
           endwhile;
-          wp_reset_postdata();
         else:
           echo "No Post To Display";
         endif;
 
 
         ?>
-
+      
 
 
 

@@ -123,7 +123,7 @@
                     <h5><?php the_title(); ?></h5>
                     <p>
                       <?php
-                      foreach ((get_the_category()) as $category) {
+                      foreach ((get) as $category) {
                         echo $category->cat_name;
                       }
                       ?>
@@ -135,7 +135,6 @@
             </div>
         <?php
           endwhile;
-          wp_reset_postdata();
         else:
           echo "No Post To Display";
         endif;

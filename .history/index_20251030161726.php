@@ -120,14 +120,8 @@
                 <img src="<?php the_post_thumbnail_url(); ?>" alt="">
                 <div class="overlay">
                   <div class="overlay-caption">
-                    <h5><?php the_title(); ?></h5>
-                    <p>
-                      <?php
-                      foreach ((get_the_category()) as $category) {
-                        echo $category->cat_name;
-                      }
-                      ?>
-                    </p>
+                    <h5>Project Name</h5>
+                    <p>Logo Design</p>
                   </div>
                 </div>
                 <!-- overlay -->
@@ -135,7 +129,6 @@
             </div>
         <?php
           endwhile;
-          wp_reset_postdata();
         else:
           echo "No Post To Display";
         endif;
