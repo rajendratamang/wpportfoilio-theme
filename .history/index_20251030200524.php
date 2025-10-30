@@ -175,14 +175,10 @@
     <div class="container">
       <div class="col-md-10 col-md-offset-1 text-center">
 
-        <?php
-        if (is_active_sidebar('contact')) {
-          dynamic_sidebar('contact');
-        }
-        ?>
 
+     
 
-
+        
       </div>
     </div>
   </section>
