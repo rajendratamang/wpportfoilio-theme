@@ -225,23 +225,23 @@
           <p>
 
           <nav class="navigation" role="navigation">
-            <?php wp_nav_menu(array(
-              'theme_location' => "social_media",
-              'menu_class' => 'primary-nav',
-              'container' => ''
-            )); ?>
-            <!-- <ul class="footer-share">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-              <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-            </ul> -->
-            </p>
-            <p>© 2024 All rights reserved. All Rights Reserved<br>
-              Made with <i class="fa fa-heart pulse"></i> by <a href="">Rajendra Tamang</a>
-            </p>
+        <?php wp_nav_menu(array(
+          'theme_location' => "main_menu",
+          'menu_class' => 'primary-nav',
+          'container' => ''
+        )); ?>
+          <ul class="footer-share">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+            <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+          </ul>
+          </p>
+          <p>© 2024 All rights reserved. All Rights Reserved<br>
+            Made with <i class="fa fa-heart pulse"></i> by <a href="">Rajendra Tamang</a>
+          </p>
         </div>
       </div>
     </div>

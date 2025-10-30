@@ -92,9 +92,4 @@ function zenfolio_sidebars()
     ));
 }
 
-register_nav_menus(
-    array(
-        'main_menu' => 'Main Menu',
-        'social_media' => 'Social Menu'
-    )
-);
+register_nav_menus( ($locations:array) )

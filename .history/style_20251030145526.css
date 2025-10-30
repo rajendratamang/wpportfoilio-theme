@@ -19,24 +19,24 @@ body {
 /* zen added */
 
 .logo-text {
-    font-size: 1.4rem;              /* Similar size to a logo */
-    font-weight: 700;               /* Bold text */
+    font-size: 1.4rem;              /* smaller like logo size */
+    font-weight: 600;
     margin: 0;
     line-height: 1;
     letter-spacing: 0.5px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* modern clean font */
 }
 
 .logo-text a {
-    color: #fff;                    /* White color for logo text */
+    color: #111;
     text-decoration: none;
     display: inline-block;
-    padding: 4px 6px;
+    padding: 5px 8px;
     border-radius: 6px;
     transition: all 0.3s ease;
 }
 
 .logo-text a:hover {
-    opacity: 0.85;                  /* Subtle hover effect */
+    color: #0073aa; /* WordPress blue */
     transform: scale(1.05);
 }

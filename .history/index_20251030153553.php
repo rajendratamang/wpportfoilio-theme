@@ -227,7 +227,7 @@
           <nav class="navigation" role="navigation">
             <?php wp_nav_menu(array(
               'theme_location' => "social_media",
-              'menu_class' => 'primary-nav',
+              'menu_class' => 'footer-share',
               'container' => ''
             )); ?>
             <!-- <ul class="footer-share">

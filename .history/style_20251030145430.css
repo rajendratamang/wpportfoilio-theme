@@ -18,25 +18,22 @@ body {
 
 /* zen added */
 
-.logo-text {
-    font-size: 1.4rem;              /* Similar size to a logo */
-    font-weight: 700;               /* Bold text */
+.site-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
     margin: 0;
-    line-height: 1;
-    letter-spacing: 0.5px;
-    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.logo-text a {
-    color: #fff;                    /* White color for logo text */
+.site-title a {
     text-decoration: none;
-    display: inline-block;
-    padding: 4px 6px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
+    color: inherit;
+    transition: color 0.3s ease;
 }
 
-.logo-text a:hover {
-    opacity: 0.85;                  /* Subtle hover effect */
-    transform: scale(1.05);
+.site-title a:hover {
+    color: #0073aa;
+    /* WordPress blue */
 }
